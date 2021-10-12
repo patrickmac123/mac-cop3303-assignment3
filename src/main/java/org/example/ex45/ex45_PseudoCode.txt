@@ -1,0 +1,49 @@
+This program looks for all occurrences of "utilize" and
+replaces each occurrence with "use"
+
+ReadFile()
+{
+This method reads the input file and initializes an ArrayList
+end
+}
+
+read()
+{
+This method adds the read input data into the List
+end
+}
+
+WriteFile(String name, ArrayList<String> list)
+{
+This method takes user input to determine where the
+output file will be stored and how it will be named
+end
+}
+
+Class Input
+{
+This class holds the user input
+}
+
+replace()
+{
+This method replaces all instances of "utilize"
+with "use"
+Everytime an instance is found, the count goes
+up by one
+}
+
+getCount()
+{
+This method returns the amount of times
+the word "utilize" is replaced with "use"
+}
+
+Main:
+This method calls the read() method to read the input
+file
+
+The WriteFile() method is called to create a new file
+
+the replace() method is called to change all instances
+of utilize with use

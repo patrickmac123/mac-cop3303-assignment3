@@ -1,0 +1,24 @@
+This program generates a website skeleton
+
+Class Website
+{
+This class has variables that contain information
+about siteName, author, path location and status for the folders
+}
+createFile(String File)
+{
+This function creates a file within the directory as a parameter
+end
+}
+create(Website obj)
+{
+This method takes an object parameter and creates files and folders
+based on user input
+end
+}
+Main:
+Asks for user input regarding site name, author,
+folders for javascript, and css
+
+Stores all the information in an object from the
+Website class

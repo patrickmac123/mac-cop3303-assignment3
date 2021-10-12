@@ -1,0 +1,15 @@
+@startuml
+
+class Person
+{
+String lastName
+String firstName
+String salary
+}
+class App
+{
+    public static void main(String[] args)
+}
+
+Person <|-- App
+@enduml

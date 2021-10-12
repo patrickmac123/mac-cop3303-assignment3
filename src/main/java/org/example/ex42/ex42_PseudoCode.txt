@@ -1,0 +1,30 @@
+This program parses a data file
+for commas and separates them into
+different columns
+
+class Person
+{
+contains variables for the different
+columns that are to be displayed
+lastName
+firstName
+salary
+}
+
+storage(Person[] records, List<String> input)
+{
+Uses a for loop to iterate through each set of strings
+and stores them each object
+end
+}
+
+Main:
+Creates a List of strings from the input
+file
+
+Creates an array of objects from the Person class
+
+Calls the method storage() to store the input data into
+each object
+
+Prints the data stored from the array into corresponding columns

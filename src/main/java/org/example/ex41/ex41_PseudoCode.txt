@@ -1,0 +1,31 @@
+This program sorts a list of names
+from an input text file
+
+public static List<String> nameSort(List names)
+{
+Sorts the names by using Collections.sort() method
+returns the list of names
+end
+}
+
+public static void printNames(List names)
+{
+Writes to a new file named: "exercise41_output.txt"
+Uses a for loop which loops for size of the list of names
+Prints the names in the list of names
+Gives user an error message if something goes wrong
+end
+}
+
+
+
+Main:
+Initializes a list to take in names.
+Read names from the file
+Create an object from the sort class
+
+Call method two methods:
+nameSort()
+and printNames()
+from the sort class
+and passes the list of names

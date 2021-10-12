@@ -1,0 +1,13 @@
+@startuml
+abstract sort
+{
+    nameSort(List names)
+    printNames(List names)
+}
+
+abstract names
+{
+    main( String[] args )
+}
+
+@enduml

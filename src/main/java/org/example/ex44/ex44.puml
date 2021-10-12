@@ -1,0 +1,17 @@
+@startuml
+
+class JSONreader
+{
+setItem(Item input)
+reader(Input input)
+public static void main(String[] args)
+}
+class Item
+{
+    String search;
+    String name;
+    Double price;
+    Long quantity;
+}
+Item <|-- JSONreader
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+
+class Website
+{
+    String siteName;
+    String author;
+    String JS;
+    String CSS;
+    String root;
+}
+
+class App
+{
+public static void createFile(String File)
+public static void main(String[] args)
+}
+Website <|-- App
+@enduml

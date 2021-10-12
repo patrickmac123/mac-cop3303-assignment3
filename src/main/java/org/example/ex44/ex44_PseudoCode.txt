@@ -1,0 +1,38 @@
+This program takes a product name as input and retrieves
+the current price and quantity of the product
+
+Class item
+{
+Stores the user input as a variable
+also stores name price and quantity
+    String search;
+    String name;
+    Double price;
+    Long quantity;
+}
+
+setItem(Item input)
+{
+This method helps store the data from the json file into an object
+end
+}
+
+Main:
+Creates an input object from the Input class and
+Calls the reader() method
+
+reader()
+{
+Creates a new object that uses the JSON Parser class
+to insert the data from the json file into the object
+
+The product name is taken from user input
+
+Iterator class is used to create an object that
+helps loop through each item in the product list
+
+The if statement checks whether the user input
+is equal to a product from the json file
+end
+}
+

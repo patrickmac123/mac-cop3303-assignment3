@@ -1,0 +1,45 @@
+This program creates a histogram of words and
+their frequencies from an input file
+
+class WordCount
+{
+contains variables that help determine the words with
+the highest count
+and the number of count for each word
+
+    public String high = null;
+    public String middle = null;
+    public String low = null;
+    int b = 0;
+    int m = 0;
+    int s = 0;
+}
+
+checkVal(WordCount obj,String badger,String mushroom,String snake,int b,int m,int s)
+{
+This method helps determine which words have
+the highest, middle, and lowest count
+end
+}
+
+print(int n)
+{
+This method is used to help print out the histogram
+by taking in the count for each word
+end
+}
+
+Main:
+Reads input from a file and uses a while loop to
+continue reading until the file is empty
+
+Creates an object obj to store the values of each word
+
+A for loop is used to help split up the words
+and for every occurrence of "badger", "mushroom",
+and "snake" a count for each word.
+
+The checkVal() method is called to help figure out which
+words have the highest, middle, and lowest count
+
+The histogram is then printed to console

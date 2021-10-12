@@ -1,0 +1,32 @@
+@startuml
+
+class App
+{
+public static void main(String[] args)
+
+}
+class ReadFile
+{
+ReadFile()
+read()
+getdata()
+}
+class Input
+{
+    String output;
+}
+class WriteFile
+{
+WriteFile()
+writeFile()
+getCount()
+}
+App <|-- WriteFile
+App <|-- WordCount
+App <|-- ReadFile
+App <|-- Input
+WriteFile <|-- App
+WordCount <|-- App
+ReadFile <|-- App
+Input <|-- App
+@enduml
