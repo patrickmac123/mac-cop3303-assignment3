@@ -9,5 +9,5 @@ abstract names
 {
     main( String[] args )
 }
-
+sort <|-- names
 @enduml
